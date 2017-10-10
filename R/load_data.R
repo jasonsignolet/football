@@ -8,6 +8,7 @@
 
 library(RSQLite)
 library(data.table)
+library(magrittr)
 library(ggplot2)
 
 ## Connect to the SQLite serverless DB and show the tables ----
