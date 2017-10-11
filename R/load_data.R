@@ -25,5 +25,17 @@ for (table_name in table_names) {
   cat("\n")
 }
 
+## The data should fit easily in memory, so let's load the whole lot ----
+
+for (table_name in table_names) {
+  assign(
+    tolower(table_name),
+    setDT(dbGetQuery(con, sprintf("SELECT * FROM %s", table_name)))
+    )
+}
+
 ## Be sure to close the connection when you're done ----
 dbDisconnect(con)
+
+## Clean up ----
+rm("con", "table_name", "table_names")
