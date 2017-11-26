@@ -1,7 +1,7 @@
 Package: football
 Type: Package
 Title: European soccer data
-Version: 0.1.0
+Version: 0.1.1
 Author: Programming R for Analytics
 Maintainer: Jason Signolet <jasonsignolet@gmail.com>
 Description: The data from https://www.kaggle.com/hugomathien/soccer
