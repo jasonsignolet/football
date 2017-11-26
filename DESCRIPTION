@@ -2,11 +2,11 @@ Package: football
 Type: Package
 Title: European soccer data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Programming R for Analytics
+Maintainer: Jason Signolet <jasonsignolet@gmail.com>
+Description: The data from https://www.kaggle.com/hugomathien/soccer
+    as an R package.
+License: GNU GENERAL PUBLIC LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
