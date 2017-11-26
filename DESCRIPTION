@@ -8,5 +8,6 @@ Description: The data from https://www.kaggle.com/hugomathien/soccer
     as an R package.
 License: GNU GENERAL PUBLIC LICENSE
 Encoding: UTF-8
+Depends: data.table
 LazyData: true
 RoxygenNote: 6.0.1
