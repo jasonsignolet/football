@@ -6,13 +6,13 @@
 \title{Player data}
 \format{A data table with 11060 rows and 7 variables
 \describe{
-  \item{id}{}
-  \item{player_api_id}{}
-  \item{player_name}{}
-  \item{player_fifa_api_id}{}
-  \item{birthday}{}
-  \item{height}{}
-  \item{weight}{}
+\item{id}{}
+\item{player_api_id}{}
+\item{player_name}{}
+\item{player_fifa_api_id}{}
+\item{birthday}{}
+\item{height}{}
+\item{weight}{}
 }}
 \source{
 \url{https://www.kaggle.com/hugomathien/soccer}

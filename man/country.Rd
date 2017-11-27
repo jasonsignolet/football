@@ -6,8 +6,8 @@
 \title{Country data}
 \format{A data table with 11 rows and 2 variables
 \describe{
-  \item{id}{Country ID}
-  \item{name}{Country name}
+\item{id}{Country ID}
+\item{name}{Country name}
 }}
 \source{
 \url{https://www.kaggle.com/hugomathien/soccer}

@@ -6,9 +6,9 @@
 \title{League}
 \format{A data table with 11 rows and 3 variables
 \describe{
-  \item{id}{Same as the `id` column from `country`}
-  \item{country_id}{Matches the `id` column from `country`}
-  \item{name}{Full name of the national league}
+\item{id}{Same as the \code{id} column from \code{country}}
+\item{country_id}{Matches the \code{id} column from \code{country}}
+\item{name}{Full name of the national league}
 }}
 \source{
 \url{https://www.kaggle.com/hugomathien/soccer}

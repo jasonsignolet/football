@@ -6,11 +6,11 @@
 \title{Team data}
 \format{A data table with 299 rows and 5 variables
 \describe{
-  \item{id}{}
-  \item{team_api_id}{}
-  \item{team_fifa_api_id}{}
-  \item{team_long_name}{}
-  \item{team_short_name}{}
+\item{id}{}
+\item{team_api_id}{}
+\item{team_fifa_api_id}{}
+\item{team_long_name}{}
+\item{team_short_name}{}
 }}
 \source{
 \url{https://www.kaggle.com/hugomathien/soccer}

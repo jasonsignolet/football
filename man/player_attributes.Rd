@@ -6,48 +6,48 @@
 \title{Player attributes}
 \format{A data table with 183978 rows and 42 variables
 \describe{
-  \item{id}{}
-  \item{player_fifa_api_id}{}
-  \item{player_api_id}{}
-  \item{date}{}
-  \item{overall_rating}{}
-  \item{potential}{}
-  \item{preferred_foot}{}
-  \item{attacking_work_rate}{}
-  \item{defensive_work_rate}{}
-  \item{crossing}{}
-  \item{finishing}{}
-  \item{heading_accuracy}{}
-  \item{short_passing}{}
-  \item{volleys}{}
-  \item{dribbling}{}
-  \item{curve}{}
-  \item{free_kick_accuracy}{}
-  \item{long_passing}{}
-  \item{ball_control}{}
-  \item{acceleration}{}
-  \item{sprint_speed}{}
-  \item{agility}{}
-  \item{reactions}{}
-  \item{balance}{}
-  \item{shot_power}{}
-  \item{jumping}{}
-  \item{stamina}{}
-  \item{strength}{}
-  \item{long_shots}{}
-  \item{aggression}{}
-  \item{interceptions}{}
-  \item{positioning}{}
-  \item{vision}{}
-  \item{penalties}{}
-  \item{marking}{}
-  \item{standing_tackle}{}
-  \item{sliding_tackle}{}
-  \item{gk_diving}{}
-  \item{gk_handling}{}
-  \item{gk_kicking}{}
-  \item{gk_positioning}{}
-  \item{gk_reflexes}{}
+\item{id}{}
+\item{player_fifa_api_id}{}
+\item{player_api_id}{}
+\item{date}{}
+\item{overall_rating}{}
+\item{potential}{}
+\item{preferred_foot}{}
+\item{attacking_work_rate}{}
+\item{defensive_work_rate}{}
+\item{crossing}{}
+\item{finishing}{}
+\item{heading_accuracy}{}
+\item{short_passing}{}
+\item{volleys}{}
+\item{dribbling}{}
+\item{curve}{}
+\item{free_kick_accuracy}{}
+\item{long_passing}{}
+\item{ball_control}{}
+\item{acceleration}{}
+\item{sprint_speed}{}
+\item{agility}{}
+\item{reactions}{}
+\item{balance}{}
+\item{shot_power}{}
+\item{jumping}{}
+\item{stamina}{}
+\item{strength}{}
+\item{long_shots}{}
+\item{aggression}{}
+\item{interceptions}{}
+\item{positioning}{}
+\item{vision}{}
+\item{penalties}{}
+\item{marking}{}
+\item{standing_tackle}{}
+\item{sliding_tackle}{}
+\item{gk_diving}{}
+\item{gk_handling}{}
+\item{gk_kicking}{}
+\item{gk_positioning}{}
+\item{gk_reflexes}{}
 }}
 \source{
 \url{https://www.kaggle.com/hugomathien/soccer}

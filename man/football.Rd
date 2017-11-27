@@ -7,19 +7,19 @@
 \title{European professional football data from Kaggle}
 \description{
 European professional football data from Kaggle for the
-  R programming course. All data taken from
-  https://www.kaggle.com/hugomathien/soccer
+R programming course. All data taken from
+https://www.kaggle.com/hugomathien/soccer
 }
 \section{Datasets}{
 
 \describe{
-  \item{country}{}
-  \item{football_match}{}
-  \item{league}{}
-  \item{player}{}
-  \item{player_attributes}{}
-  \item{team}{}
-  \item{team_attributes}{}
+\item{country}{}
+\item{football_match}{}
+\item{league}{}
+\item{player}{}
+\item{player_attributes}{}
+\item{team}{}
+\item{team_attributes}{}
 }
 }
 

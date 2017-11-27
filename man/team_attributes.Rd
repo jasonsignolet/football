@@ -6,31 +6,31 @@
 \title{Team attributes}
 \format{A data table with 1458 rows and 25 variables
 \describe{
-  \item{id}{}
-  \item{team_fifa_api_id}{}
-  \item{team_api_id}{}
-  \item{date}{}
-  \item{buildUpPlaySpeed}{}
-  \item{buildUpPlaySpeedClass}{}
-  \item{buildUpPlayDribbling}{}
-  \item{buildUpPlayDribblingClass}{}
-  \item{buildUpPlayPassing}{}
-  \item{buildUpPlayPassingClass}{}
-  \item{buildUpPlayPositioningClass}{}
-  \item{chanceCreationPassing}{}
-  \item{chanceCreationPassingClass}{}
-  \item{chanceCreationCrossing}{}
-  \item{chanceCreationCrossingClass}{}
-  \item{chanceCreationShooting}{}
-  \item{chanceCreationShootingClass}{}
-  \item{chanceCreationPositioningClass}{}
-  \item{defencePressure}{}
-  \item{defencePressureClass}{}
-  \item{defenceAggression}{}
-  \item{defenceAggressionClass}{}
-  \item{defenceTeamWidth}{}
-  \item{defenceTeamWidthClass}{}
-  \item{defenceDefenderLineClass}{}
+\item{id}{}
+\item{team_fifa_api_id}{}
+\item{team_api_id}{}
+\item{date}{}
+\item{buildUpPlaySpeed}{}
+\item{buildUpPlaySpeedClass}{}
+\item{buildUpPlayDribbling}{}
+\item{buildUpPlayDribblingClass}{}
+\item{buildUpPlayPassing}{}
+\item{buildUpPlayPassingClass}{}
+\item{buildUpPlayPositioningClass}{}
+\item{chanceCreationPassing}{}
+\item{chanceCreationPassingClass}{}
+\item{chanceCreationCrossing}{}
+\item{chanceCreationCrossingClass}{}
+\item{chanceCreationShooting}{}
+\item{chanceCreationShootingClass}{}
+\item{chanceCreationPositioningClass}{}
+\item{defencePressure}{}
+\item{defencePressureClass}{}
+\item{defenceAggression}{}
+\item{defenceAggressionClass}{}
+\item{defenceTeamWidth}{}
+\item{defenceTeamWidthClass}{}
+\item{defenceDefenderLineClass}{}
 }}
 \source{
 \url{https://www.kaggle.com/hugomathien/soccer}
