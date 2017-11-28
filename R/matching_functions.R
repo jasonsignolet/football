@@ -65,9 +65,11 @@ player_to_match <- function(player_api_id) {
 #' @examples
 #' matchday_team_attributes()
 matchday_team_attributes <- function() {
+  .team_attributes <- copy(team_attributes)
+
   output <- football_match[, .(match_api_id, match_date = date,
                                home_team_api_id, away_team_api_id)][
-    team_attributes[, assessment_date := date],
+    .team_attributes[, assessment_date := date],
     on = c("home_team_api_id" = "team_api_id", "match_date" = "date"),
     roll = -Inf, `:=`(home_assessment = assessment_date,
                       home_buildUpPlaySpeed = buildUpPlaySpeed,
@@ -92,7 +94,7 @@ matchday_team_attributes <- function() {
                       home_defenceTeamWidthClass = defenceTeamWidthClass,
                       home_defenceDefenderLineClass = defenceDefenderLineClass)
     ][
-      team_attributes[, assessment_date := date],
+      .team_attributes[, assessment_date := date],
       on = c("home_team_api_id" = "team_api_id", "match_date" = "date"),
       roll = -Inf, `:=`(away_assessment = assessment_date,
                         away_buildUpPlaySpeed = buildUpPlaySpeed,
