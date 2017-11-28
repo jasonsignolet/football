@@ -1,8 +1,11 @@
-foo <- women %>%
-  setDT %>%
-  .[, female := factor(sample(c(T, F), .N, replace = T))]
 
-two_way_interaction_data <- function(training_data, num_factor_length = 5)  {
+#' Two-way interactions data
+#'
+#' @param training_data A data.table with the features of interest
+#' @param num_factor_length The number of cuts to make to numeric cols
+#' @export
+#' @return A list: data.table and indexes
+two_way_interaction_data <- function(training_data, num_factor_length = 5L)  {
   gbm_data <- training_data
 
   features <- names(gbm_data)
@@ -84,7 +87,11 @@ two_way_interaction_data <- function(training_data, num_factor_length = 5)  {
 }
 
 
-bah <- two_way_interaction_data(foo, num_factor_length = 5)
+# foo <- women %>%
+#   setDT %>%
+#   .[, female := factor(sample(c(T, F), .N, replace = T))]
 
-i = 3
-bah$data[bah$row_index[[i]], bah$col_index[[i]], with = F]
+# bah <- two_way_interaction_data(foo, num_factor_length = 5)
+#
+# i = 3
+# bah$data[bah$row_index[[i]], bah$col_index[[i]], with = F]
